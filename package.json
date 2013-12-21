@@ -1,0 +1,11 @@
+{
+  "name": "Browserify_Hydra.js",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "browserify src/module.js -o bundle.js"
+  },
+  "dependencies": {
+    "hydra.js": "*",
+    "browserify": "*"
+  }
+}
